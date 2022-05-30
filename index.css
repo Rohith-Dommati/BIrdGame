@@ -1,0 +1,102 @@
+.body{
+   width: 100%;
+   padding: 5px;;
+}
+
+
+.first{
+    margin:auto;
+    color: brown;
+    width: 60%;
+    border: 3px double;
+    border-radius: 5px;
+    height:200px;
+    background-color: aqua;
+    font-size: 23px;
+    text-align: center;
+    padding-left: 0px;
+}
+.bird{
+    width: 60%;
+    height: 300px;
+}
+
+.second{
+    margin:auto;
+    color: brown;
+    width: 60%;
+    height: fit-content;
+}
+
+.game{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    border: 2px double black;
+    border-radius: 8px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+}
+
+.game:hover{
+    border: 2px double black;
+    border-radius: 8px;
+    background: black;
+    transition: 0.5s;
+}
+
+
+@media(max-width:700px){
+    .body{
+        width: 100%;
+        padding: 5px;;
+     }
+     
+     
+     .first{
+         margin:auto;
+         color: brown;
+         width: 60%;
+         border: 3px double;
+         border-radius: 5px;
+         height:200px;
+         background-color: aqua;
+         font-size: 23px;
+         text-align: center;
+         padding-left: 0px;
+     }
+     .bird{
+         width: 60%;
+         height: 300px;
+     }
+     
+     .second{
+         margin:auto;
+         color: brown;
+         width: 60%;
+         height: fit-content;
+     }
+     
+     .game{
+         display: inline-block;
+         text-decoration: none;
+         color: red;
+         border: 2px double black;
+         border-radius: 8px;
+         padding: 12px 34px;
+         font-size: 13px;
+         background: transparent;
+         position: relative;
+     }
+     
+     .game:hover{
+         border: 2px double black;
+         border-radius: 8px;
+         background: black;
+         transition: 0.5s;
+     }
+     
+     
+    }
